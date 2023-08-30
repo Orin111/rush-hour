@@ -1,6 +1,8 @@
 # Rush Hour Game
 
-Welcome to the Rush Hour game! In this classic puzzle game, your goal is to move cars on the game board to clear a path for the red car to exit the grid. The game challenges your logical thinking and strategic planning.
+Welcome to the Rush Hour game! 
+In this classic puzzle game, your goal is to move cars on the game board to clear a path for the red car to exit the grid. 
+The game challenges your logical thinking and strategic planning.
 
 ## Table of Contents
 
@@ -15,20 +17,21 @@ Welcome to the Rush Hour game! In this classic puzzle game, your goal is to move
 
 ## Game Description
 
-This Rush Hour game is a digital adaptation of the classic sliding block puzzle. You'll be presented with a game board containing cars of various sizes, orientations, and colors. The challenge is to slide the cars horizontally or vertically to create an unobstructed path for the red car to exit the grid.
+This Rush Hour game is a digital adaptation of the classic sliding block puzzle. 
+You'll be presented with a game board containing cars of various sizes, orientations, and colors. 
+The challenge is to slide the cars horizontally or vertically to create an unobstructed path for the red car to exit the grid.
+
 
 ## Getting Started
 
 To play the Rush Hour game on your local machine, follow these steps:
 
-1. Clone this repository using the command: `git clone <repository_url>`
+1. Clone this repository using the command: `git clone https://github.com/Orin111/rush-hour`
 2. Navigate to the project directory: `cd rush-hour-game`
 3. Create a virtual environment (optional but recommended): `python3 -m venv venv`
 4. Activate the virtual environment: `source venv/bin/activate`
 5. Install required libraries: `pip install -r requirements.txt`
 6. Run the game: `python3 game.py car_config.json`
-
-Replace `<repository_url>` with the actual URL of your GitHub repository.
 
 ## Car Class
 
@@ -38,7 +41,8 @@ For detailed information about the `Car` class, its methods, and usage examples,
 
 ## Board Class
 
-The `Board` class represents the game board itself. It provides methods to create the board, add cars, check for legal moves, and more. The interaction with the `Board` class is crucial for playing the Rush Hour game.
+The `Board` class represents the game board itself. It provides methods to create the board, add cars, check for legal moves, and more. 
+The interaction with the `Board` class is crucial for playing the Rush Hour game.
 
 For detailed information about the `Board` class, its methods, and usage examples, refer to the [Board Class](#board-class) section in this README.
 
