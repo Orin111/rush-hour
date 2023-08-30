@@ -37,20 +37,62 @@ To play the Rush Hour game on your local machine, follow these steps:
 
 The `Car` class represents a car on the game board. Each car has attributes such as its name, length, location, and orientation. You can create, move, and manipulate cars using this class.
 
-For detailed information about the `Car` class, its methods, and usage examples, refer to the [Car Class](#car-class) section in this README.
+Here's an overview of the methods available in the `Car` class:
+
+- `__init__(self, name, length, location, orientation)`: Initializes a new car object with specified attributes.
+- `get_length(self)`: Returns the length of the car.
+- `get_orientation(self)`: Returns the orientation of the car (0 for vertical, 1 for horizontal).
+- `car_coordinates(self)`: Returns a list of coordinates that the car occupies on the board.
+- `possible_moves(self)`: Returns a dictionary of possible movements permitted by this car.
+- `movement_requirements(self, movekey)`: Returns a list of cell locations that must be empty for a move to be legal.
+- `move(self, movekey)`: Moves the car in a specified direction.
+- `get_name(self)`: Returns the name of the car.
 
 ## Board Class
 
 The `Board` class represents the game board itself. It provides methods to create the board, add cars, check for legal moves, and more. 
 The interaction with the `Board` class is crucial for playing the Rush Hour game.
 
-For detailed information about the `Board` class, its methods, and usage examples, refer to the [Board Class](#board-class) section in this README.
+Here's an overview of the methods available in the `Board` class:
+
+- __init__(self): Initializes a new instance of the Board class.
+- get_graphic(self): Returns the graphical representation of the game board.
+- create_board(self, BOARD_SIZE): Creates the initial graphical representation of the game board.
+- get_cars(self): Returns a dictionary of cars on the board.
+- __str__(self): Returns a string representation of the current status of the board.
+- cell_list(self): Returns a list of coordinates of cells on the board.
+- in_board(self, c1): Checks if a given coordinate is within the boundaries of the game board.
+- possible_moves(self): Returns a list of possible moves that can be made on the current board configuration.
+- check_cars(self): Returns a list of empty cell locations on the board.
+- target_location(self): Returns the coordinates of the exit cell on the board.
+- cell_content(self, coordinate): Checks if a given cell is occupied by a car.
+- add_car(self, car): Adds a car to the game board.
+- move_car(self, name, movekey): Moves a car one step in a given direction.
+
 
 ## Game Class
 
 The `Game` class orchestrates the Rush Hour game by managing player turns, processing inputs, and checking for game completion. It utilizes the `Board` class and the `Car` class to create a functional and interactive game experience.
 
-For detailed information about the `Game` class, its methods, and usage examples, refer to the [Game Class](#game-class) section in this README.
+Here's an overview of the methods available in the `Game` class:
+
+- `__init__(self, board)`: Initializes a new game instance with a specified game board.
+- `__single_turn(self)`: Executes a single turn of the game, processing user input and checking for game continuation.
+- `play(self)`: The main driver of the game, manages the game until completion.
+
+### Usage Examples
+
+To create a new game instance, you can use the following code:
+
+```python
+game_board = Board()  # Create a board object using the Board class
+game = Game(game_board)  # Create a game object using the Game class
+
+To play the game, call the play method on the game object:
+game.play()
+
+The game will prompt you to input car colors and movement directions. Enter ! to end the game whenever you wish.
+
 
 ## Running the Game
 
@@ -67,7 +109,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Author
 
-This README was written by Orin Pour. If you have any questions or feedback, feel free to reach out!
+This README was written by Orin Pour.
 
 ---
 
