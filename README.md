@@ -118,6 +118,3 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 This README was written by Orin Pour.
 
----
-
-Feel free to explore the provided code, adapt it to your needs, and have fun playing and solving puzzles in the Rush Hour game! If you have any questions about the project, code, or usage, don't hesitate to ask.
