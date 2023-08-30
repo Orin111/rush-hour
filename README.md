@@ -91,9 +91,12 @@ To create a new game instance, you can use the following code:
 ```python
 game_board = Board()  # Create a board object using the Board class
 game = Game(game_board)  # Create a game object using the Game class
+```
 
 To play the game, call the play method on the game object:
+```
 game.play()
+```
 
 The game will prompt you to input car colors and movement directions. Enter ! to end the game whenever you wish.
 
