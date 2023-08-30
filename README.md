@@ -4,7 +4,8 @@ Welcome to the Rush Hour game!
 In this classic puzzle game, your goal is to move cars on the game board to clear a path for the red car to exit the grid. 
 The game challenges your logical thinking and strategic planning.
 
-![Rush Hour Game](rush_hour_game.png)
+<img src="rush_hour_game.png" alt="Rush Hour Game" width="300">
+
 
 
 ## Table of Contents
