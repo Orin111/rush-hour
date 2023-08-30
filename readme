@@ -1,2 +1,13 @@
-https://github.com/lioraVes/Intro-to-CS/tree/main/Ex09-RushHour
-https://github.com/OmerFerster/Introduction-to-CS/tree/main/Exercise%208
+Rush Hour
+The main idea behind this project is to get familiar with Advanced Programming Concepts and OOP.
+
+« Home Page
+
+Usage
+Run the project on your personal machine
+
+Clone this repository using git clone <url>
+Open the cloned project in your IDE
+(Optional) Create a virtual environment using python3 -m venv venv
+Use pip install -r requirements.txt to install all required libraries
+run python3 <python file> to run the project
